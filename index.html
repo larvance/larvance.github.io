@@ -1,65 +1,66 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta content="Larvance's Portfolio" property="og:title"/>
-    <meta content="Hi, I'm Larvance. I'm currently a FullStack developer and a student!" property="og:description"/>
-    <meta content="https://larvance.github.io/" property="og:url"/>
-    <meta content="https://larvance.github.io/assets/icon.png" property="og:image"/>
-    <meta content="#619EFF" data-react-helmet="true" name="theme-color"/>
-    <link rel="icon" href="./assets/circle-icon.png" type="text/css">
-    <title>Larvance's Portfolio</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-<div class="cursor"></div>
-<div class="particles"></div>
-<div class="sections">
-    <section class="section-main">
-        <div class="main-text">
-            Hello, I'm&nbsp;<i class="my-name">Larvance</i>,<br>
-            <div class="mv-text">
-                <div class="moving-text"></div>
-                <div class="text-cursor"></div>
-            </div>
-        </div>
-        <div class="scroll-more bottom"></div>
-    </section>
-    <section class="section-skills">
-        <div class="scroll-more top"></div>
-        <h1>Skills</h1>
-        <div class="skill-options">
-            <div>All</div>
-        </div>
-        <div class="skill-list"></div>
-        <div class="scroll-more bottom"></div>
-    </section>
-    <section class="section-projects">
-        <div class="scroll-more top"></div>
-        <h1>Projects</h1>
-        <div class="repositories"></div>
-        <div class="scroll-more bottom"></div>
-    </section>
-    <section class="section-contacts">
-        <div class="scroll-more top"></div>
-        <h1>Contact Me</h1>
-        <div class="contacts">
-            <div>
-                <div>Discord</div>
-                <div class="gray">@larvance</div>
-                <div><img src="./assets/discord.png" draggable="false"></div>
-            </div>
-            <div onclick="window.open('https://github.com/larvance/', '_blank')">
-                <div>GitHub</div>
-                <div class="gray">@larvance</div>
-                <div><img src="./assets/github.png" draggable="false"></div>
-            </div>
-        </div>
-    </section>
-</div>
-</body>
-<script type="module" src="./index.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>larvance | Systems Engineering, Compilers &amp; Autonomous Robotics</title>
+    <meta name="title" content="larvance | Systems Engineering, Compilers &amp; Autonomous Robotics" />
+    <meta
+      name="description"
+      content="Systems architect specializing in parallel physics simulation kernels, hard real-time flight firmware, compilers, and hardware-accelerated deep learning engines."
+    />
+    <meta
+      name="keywords"
+      content="larvance, systems engineering, robotics, compilers, Rust, no_std, EKF, physics engine, LLVM, simulation, EDA"
+    />
+    <meta name="author" content="larvance" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://larvance.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://larvance.com/" />
+    <meta
+      property="og:title"
+      content="larvance | Systems Engineering, Compilers &amp; Autonomous Robotics"
+    />
+    <meta
+      property="og:description"
+      content="Architecting parallel physics simulation kernels, hard real-time flight firmware, compilers, and hardware-accelerated deep learning engines."
+    />
+    <meta property="og:image" content="https://larvance.com/assets/avatar.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://larvance.com/" />
+    <meta
+      property="twitter:title"
+      content="larvance | Systems Engineering, Compilers &amp; Autonomous Robotics"
+    />
+    <meta
+      property="twitter:description"
+      content="Architecting parallel physics simulation kernels, hard real-time flight firmware, compilers, and hardware-accelerated deep learning engines."
+    />
+    <meta property="twitter:image" content="https://larvance.com/assets/avatar.png" />
+
+    <!-- Favicon & Touch Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=7" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png?v=7" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/avatar-circle.png?v=7" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=7" />
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-canvas text-text-primary antialiased selection:bg-accent-primary/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
